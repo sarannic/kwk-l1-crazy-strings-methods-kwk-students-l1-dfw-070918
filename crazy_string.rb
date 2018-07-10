@@ -2,7 +2,7 @@
 
 def crazy_strings(food, drink)
   food = food.upcase.reverse
-  drink = drink.gsub("s", "Z")
+  drink = drink.swapcase.gsub("s", "z")
   return "#{food} #{drink}"
 end
 
